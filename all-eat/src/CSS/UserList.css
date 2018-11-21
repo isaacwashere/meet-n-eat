@@ -1,0 +1,34 @@
+#rest-wrapper {
+  margin-top: 10em;
+  height: 25em;
+  width: 39em;
+  /* background: pink; */
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  #big-box {
+    justify-content: center;
+  }
+  #rest-list-wrapper {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 1.2em;
+  }
+
+  #rest-wrapper {
+    flex-direction: column;
+    height: 37.3em;
+  }
+
+  #checkboxes {
+    width: 22em;
+    height: 15em;
+  }
+
+  #big-box {
+    height: auto;
+  }
+}
